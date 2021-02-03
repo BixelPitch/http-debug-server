@@ -1,0 +1,36 @@
+{
+  "name": "http-debug-server",
+  "description": "A quick and easy way to debug your infrastructure",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BixelPitch/http-debug-server.git"
+  },
+  "keywords": [
+    "test",
+    "debug",
+    "http",
+    "server",
+    "node",
+    "express",
+    "infrastructure",
+    "network",
+    "request",
+    "payload"
+  ],
+  "author": "BixelPitch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BixelPitch/http-debug-server/issues"
+  },
+  "homepage": "https://github.com/BixelPitch/http-debug-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
